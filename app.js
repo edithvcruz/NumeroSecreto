@@ -45,7 +45,7 @@ function generaNumeroSecreto() {
 
 //Si ya se superaron los intentos maximos disponibles
     if(listanumeroSorteado.length==maximo){
-     asignarElemento("p", "Ya se sortearon todos los números posibles");
+     asignarElemento("p", "Ya se sortearon TODOS los números posibles");
 
     }else{
     //Si el número ya es parte de la lista
